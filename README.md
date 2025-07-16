@@ -1,4 +1,4 @@
-# MiGym
+# MiRoutine
 
 Aplicación web para gestionar rutinas de gimnasio, con backend en Go y frontend en Vue.js.
 
