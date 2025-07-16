@@ -11,8 +11,7 @@ Aplicación web para gestionar rutinas de gimnasio, con backend en Go y frontend
 
 ```
 ├── gym-frontend/   # Frontend (Vue.js)
-├── gym-backend/    # Backend (Go)
-└── pasos.txt       # Notas o pasos personalizados
+└── gym-backend/    # Backend (Go)
 ```
 
 ## Instalación y uso
