@@ -1,0 +1,29 @@
+1. 📐 Modelo de datos (PostgreSQL)
+Vamos a tener al menos estas tablas:
+Usuarios (users)
+sql:
+id SERIAL PRIMARY KEY
+email TEXT UNIQUE NOT NULL
+password TEXT NOT NULL -- hashed
+
+Ejercicios (exercises)
+sql:
+id SERIAL PRIMARY KEY
+name TEXT NOT NULL
+muscle_group TEXT NOT NULL
+
+Rutinas (routines)
+sql:
+id SERIAL PRIMARY KEY
+user_id INTEGER REFERENCES users(id)
+name TEXT NOT NULL
+
+Rutina_Ejercicio (routine_exercises)
+(Relación muchos a muchos entre routines y exercises, con metadata)
+sql:
+id SERIAL PRIMARY KEY
+routine_id INTEGER REFERENCES routines(id)
+exercise_id INTEGER REFERENCES exercises(id)
+sets INTEGER
+reps INTEGER
+rest_seconds INTEGER

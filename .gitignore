@@ -1,0 +1,53 @@
+# Node.js (frontend)
+gym-frontend/node_modules/
+gym-frontend/dist/
+gym-frontend/.env
+gym-frontend/.env.*
+gym-frontend/.output/
+gym-frontend/.cache/
+gym-frontend/.turbo/
+gym-frontend/coverage/
+gym-frontend/.vite/
+gym-frontend/.next/
+gym-frontend/.nuxt/
+gym-frontend/.DS_Store
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Go (backend)
+gym-backend/bin/
+gym-backend/pkg/
+gym-backend/.env
+gym-backend/.env.*
+gym-backend/coverage/
+gym-backend/.DS_Store
+# Archivos temporales y de build de Go
+gym-backend/*.exe
+gym-backend/*.test
+gym-backend/*.out
+
+# General
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+.env
+.env.*
+.idea/
+.vscode/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistema operativo
+Thumbs.db
+Desktop.ini
+
+# Otros
+*.bak
+*.old 
